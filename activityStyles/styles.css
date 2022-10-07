@@ -1,0 +1,19 @@
+body {
+    background-color: blue;
+}
+
+ul.dashed {
+    list-style-type: none;
+    padding-left:12px;
+}
+
+ul.dashed > li::before{
+    content: "-  " ;
+}
+
+li{
+    line-height:200%;
+    font-size: 18px;
+    background-color: orange;
+
+}
